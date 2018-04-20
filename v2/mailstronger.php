@@ -121,7 +121,7 @@ class MailStronger
     // Pool(IPs) managment
     public function PoolList()
     {
-	    return $this->curl_do_post("PoolList","");
+       return $this->curl_do_post("PoolList","");
     }
 		
     public function PoolIpList($pool_name)
