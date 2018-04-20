@@ -6,6 +6,8 @@ This is the documentation for the MailStronger Php Client.
 
 You will need to have to create a USER_ID and a USER_KEY in your [mailstronger manager](https://www.mailstronger.com)
 
+You can check our full documentation of all available functions : [here](https://www.mailstronger.com/json/index.php)
+
 You will have to create a Contact List with ListCreate or in MailStronger manager.
 
 After you have create a account on MailStronger and Install the library on your server, you can start to test with this little script.
