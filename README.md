@@ -2,13 +2,14 @@
 
 This is the documentation for the MailStronger Php Client.
 
-#Installation and Quickstart
+# Installation and Quickstart
 
 You will need to have a USER_ID and a USER_KEY MailStronger.
 
 You will have to create a Contact List with ListCreate or in MailStronger manager.
 
 After you have create a account on MailStronger and Install the library on your server, you can start to test with this little script.
+
 ```php
 <?php
 
