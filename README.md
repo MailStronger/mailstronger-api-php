@@ -75,6 +75,8 @@ List of all functions available :
 * SmsCheck
 * SmsSend
 * SmsInfo
+* SmsDelete
+* SmsUpdateDate
 * SmsCampaign
 * SmsCampaignList
 * SmsCampaignListList
