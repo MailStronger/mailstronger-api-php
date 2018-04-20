@@ -4,7 +4,7 @@ This is the documentation for the MailStronger Php Client.
 
 # Installation and Quickstart
 
-You will need to have a USER_ID and a USER_KEY MailStronger.
+You will need to have to create a USER_ID and a USER_KEY in your [mailstronger manager](https://www.mailstronger.com)
 
 You will have to create a Contact List with ListCreate or in MailStronger manager.
 
