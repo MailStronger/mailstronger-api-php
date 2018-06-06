@@ -112,6 +112,22 @@ class MailStronger
        return $this->curl_do_post("ListAbuse",json_encode($list_id));
     }
 	
+    public function ListDetailedUnsub($list_id)
+    {
+	return $this->curl_do_post("ListDetailedUnsub", $list_id);
+    }
+
+	
+     public function ListDetailedAbuse($list_id)
+    {
+	return $this->curl_do_post("ListDetailedAbuse", $list_id);
+    }
+
+    public function ListInvalidEmails($list_id)
+    {
+	return $this->curl_do_post("ListInvalidEmails", $list_id);
+    }
+	
     // IPs managment: 
     public function IpList()
     {
