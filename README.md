@@ -55,6 +55,9 @@ List of all available functions :
 * ListActivity($list_id)
 * ListBounce($list_id)
 * ListAbuse($list_id)
+* ListDetailedUnsub($list_id)
+* ListDetailedAbuse($list_id)
+* ListInvalidEmails($list_id)
 * BlacklistEmailList($list_id)
 * BlacklistEmailAdd
 * IpList
