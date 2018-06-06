@@ -122,6 +122,11 @@ class MailStronger
     {
 	return $this->curl_do_post("ListDetailedAbuse", $list_id);
     }
+	
+    public function ListDetailedBlocked($list_id)
+    {
+        return $this->curl_do_post("ListDetailedBlocked", $list_id);
+    }
 
     public function ListInvalidEmails($list_id)
     {
