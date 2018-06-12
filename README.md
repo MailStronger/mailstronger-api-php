@@ -59,6 +59,9 @@ List of all available functions :
 * ListDetailedAbuse($list_id)
 * ListDetailedBlocked($list_id)
 * ListDetailedUndefined($list_id)
+* ListDetailedDelivered($data)
+* ListOpeners($data)
+* ListClickers($data)
 * ListInvalidEmails($list_id)
 * BlacklistEmailList($list_id)
 * BlacklistEmailAdd
