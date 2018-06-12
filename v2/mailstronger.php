@@ -131,6 +131,21 @@ class MailStronger
     {
 	return $this->curl_do_post("ListDetailedUndefined", $list_id);
     }
+	
+    public function ListDetailedDelivered($data)
+    {
+	return $this->curl_do_post("ListDetailedDelivered", json_encode($data));
+    }
+
+    public function ListOpeners($data)
+    {
+	return $this->curl_do_post("ListOpeners", json_encode($data));
+    }
+
+    public function ListClickers($data)
+    {
+	return $this->curl_do_post("ListClickers", json_encode($data));
+    }
 
     public function ListInvalidEmails($list_id)
     {
